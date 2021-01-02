@@ -21,8 +21,8 @@ carMakers.map((car: string): string => {
     return car.toUpperCase();
 });
 
-
 // Flexible array types
 const importantDates = [new Date(), '10-31-15'];
 importantDates.push('12-25-2929');
 importantDates.push(new Date());
+
